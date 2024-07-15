@@ -1,0 +1,51 @@
+#talk {
+    position: absolute;
+    z-index: 5;
+}
+
+#heart {
+    position: absolute;
+    z-index: 4;
+}
+
+#main {
+    position: absolute;
+    z-index: 3;
+}
+
+#eyes {
+    position: absolute;
+    z-index: 2;
+}
+
+#frame {
+    position: absolute;
+    z-index: 2;
+}
+
+#tail {
+    position: absolute;
+    z-index: 1;
+}
+
+#weapon {
+    position: absolute;
+    z-index: 0;
+}
+
+#con1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.parts {
+    width: auto;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+body {
+    background-color: white;
+    overflow: hidden;
+}
